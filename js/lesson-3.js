@@ -147,7 +147,49 @@
  // Об'єкт класу може проводити послідовні операції у вигляді ланцюжка
  
  // Приклад використання:
- // const calc = new Calculator();
+
+
+
+// class Calculator {
+//   constructor() {
+//     this.value = 0;
+//   }
+
+//   number(value) {
+//     this.value = value;
+//     return this;
+//   }
+
+//   getResult() {
+//     return this.value;
+//   }
+
+//   add(value) {
+//     this.value += value;
+//     return this;
+//   }
+
+//   subtract(value) {
+//     this.value -= value;
+//     return this;
+//   }
+
+//   multiply(value) {
+//     this.value *= value;
+//     return this;
+//   }
+
+//   divide(value) {
+//     if (value === 0) {
+//       throw new Error("Division by zero is not allowed");
+//     }
+//     this.value /= value;
+//     return this;
+//   }
+// }
+
+
+//  const calc = new Calculator();
 
 
 // const result = calc
@@ -160,14 +202,6 @@
 
 
 //   console.log(result); // 24
-
-
-class Calculator {
-
-}
-
-
-
 
 
 // Завдання 12:
